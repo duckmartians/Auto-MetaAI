@@ -1,4 +1,4 @@
-# 🎨 Auto Meta - Tự động hóa cho Meta AI
+# 🎨 Auto Meta - Tự động hóa cho Meta AI [![Tiếng Việt](https://img.shields.io/badge/Tiếng%20Việt-green)](README_vi.md) [![English](https://img.shields.io/badge/English-blue)](README.md) 
 
 Auto Meta là một tiện ích mở rộng (extension) cho trình duyệt Chrome, giúp tự động hóa quy trình tạo video hàng loạt trên Meta AI Media (`meta.ai/media`), tiết kiệm thời gian và tăng tốc khả năng sáng tạo của bạn.
 
@@ -20,7 +20,7 @@ Auto Meta là một tiện ích mở rộng (extension) cho trình duyệt Chrom
 2.  Tìm kiếm với từ khóa "**Auto Meta - Tự động hóa cho Meta AI**".
 3.  Nhấp vào "Thêm vào Chrome" (Add to Chrome).
 
-*(Hoặc, nhấp vào [LINK CÀI ĐẶT TRỰC TIẾP] (bạn sẽ cập nhật link này sau))*
+[![Download Here](https://img.shields.io/badge/⬇_Download-Here-success?style=for-the-badge)](https://chromewebstore.google.com)
 
 ## 📖 Hướng dẫn sử dụng
 
