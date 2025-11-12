@@ -20,7 +20,7 @@ Auto Meta is a Chrome browser extension that automates your bulk video creation 
 2.  Search for "**Auto Meta - Automation for Meta AI**".
 3.  Click "Add to Chrome".
 
-[![Download Here](https://img.shields.io/badge/⬇_Download-Here-success?style=for-the-badge)](https://chromewebstore.google.com)
+[![Download Here](https://img.shields.io/badge/⬇_Download-Here-success?style=for-the-badge)](https://chromewebstore.google.com/detail/bchhcfjoloinebjpbfklckgohpjehdmf)
 
 ## 📖 How to Use
 
