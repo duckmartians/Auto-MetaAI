@@ -20,7 +20,7 @@ Auto Meta là một tiện ích mở rộng (extension) cho trình duyệt Chrom
 2.  Tìm kiếm với từ khóa "**Auto Meta - Tự động hóa cho Meta AI**".
 3.  Nhấp vào "Thêm vào Chrome" (Add to Chrome).
 
-[![Download Here](https://img.shields.io/badge/⬇_Download-Here-success?style=for-the-badge)](https://chromewebstore.google.com/detail/bchhcfjoloinebjpbfklckgohpjehdmf)
+[![Download Here](https://img.shields.io/badge/⬇_Download-Here-success?style=for-the-badge)](https://chromewebstore.google.com/detail/auto-meta-automation-for/bchhcfjoloinebjpbfklckgohpjehdmf)
 
 ## 📖 Hướng dẫn sử dụng
 
