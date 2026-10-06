@@ -1,81 +1,138 @@
-# 🎨 Auto Meta - Tự động hóa cho Meta AI [![Tiếng Việt](https://img.shields.io/badge/Tiếng%20Việt-green)](README_vi.md) [![English](https://img.shields.io/badge/English-blue)](README.md) 
+<h1 align="center">Auto Vibes</h1>
 
-Auto Meta là một tiện ích mở rộng (extension) cho trình duyệt Chrome, giúp tự động hóa quy trình tạo video hàng loạt trên Meta AI Media (`meta.ai/media`), tiết kiệm thời gian và tăng tốc khả năng sáng tạo của bạn.
+<p align="center"><b>Tiện ích Chrome biến Vibes AI (vibes.ai) thành xưởng tạo ảnh và video hàng loạt — dán prompt, bấm Bắt đầu, kết quả tự lưu về máy.</b></p>
 
-## ✨ Tính năng chính
+<p align="center">
+  <a href="README.md">English</a> ·
+  <b>Tiếng Việt</b>
+</p>
 
-* **Hai chế độ hoạt động thông minh**:
-    1.  **Image-to-Video**: Tự động chạy khi bạn có chọn ảnh. Lấy 1 ảnh + 1 prompt để tạo video.
-    2.  **Text-to-Video**: Tự động chạy khi bạn *không* chọn ảnh. Chỉ lấy 1 prompt để tạo video.
-* **Tải ảnh hàng loạt**: Chọn nhiều ảnh cùng lúc để đưa vào hàng đợi.
-* **Sắp xếp ảnh**: Sắp xếp danh sách ảnh theo A-Z, Z-A, Mới nhất, Cũ nhất.
-* **Nhập Prompt từ file**: Hỗ trợ nhập hàng loạt prompt từ file `.txt`.
-* **Tự động tải về**: Tự động quét và tải video mới được tạo ra.
-* **Tùy chỉnh linh hoạt**: Cài đặt thời gian chờ và vị trí bắt đầu theo ý muốn.
-* **Giao diện đa ngôn ngữ**: Hỗ trợ Tiếng Việt và Tiếng Anh.
+<p align="center">
+  <a href="https://chromewebstore.google.com/detail/auto-meta-automation-for/bchhcfjoloinebjpbfklckgohpjehdmf"><img alt="Cài từ Chrome Web Store" src="https://img.shields.io/badge/Chrome%20Web%20Store-Th%C3%AAm%20v%C3%A0o%20Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
+</p>
 
-## 🚀 Cài đặt
+> **Tên cũ: "Auto Meta - Tự động hóa cho Meta AI".** Auto Vibes là tên và phiên bản mới của chính tiện ích này, vẫn cùng mục trên Chrome Web Store. Bản hiện tại chạy trên **vibes.ai** (không còn chạy trên meta.ai/media).
 
-1.  Truy cập Cửa hàng Chrome trực tuyến.
-2.  Tìm kiếm với từ khóa "**Auto Meta - Tự động hóa cho Meta AI**".
-3.  Nhấp vào "Thêm vào Chrome" (Add to Chrome).
+---
 
-[![Download Here](https://img.shields.io/badge/⬇_Download-Here-success?style=for-the-badge)](https://chromewebstore.google.com/detail/auto-meta-automation-for/bchhcfjoloinebjpbfklckgohpjehdmf)
+## Cài đặt
 
-## 📖 Hướng dẫn sử dụng
+### Bước 1 — Thêm từ Chrome Web Store
 
-### Bước 1: Điều hướng
+Mở **[trang Chrome Web Store](https://chromewebstore.google.com/detail/auto-meta-automation-for/bchhcfjoloinebjpbfklckgohpjehdmf)** bằng Google Chrome rồi bấm **Thêm vào Chrome**. Chrome tự cập nhật tiện ích. Tên đầy đủ hiện trên cửa hàng và trong `chrome://extensions` là **Auto Vibes x G-Labs Automation**.
 
-Mở trình duyệt Chrome và truy cập trang Meta AI Media:
-**`https://www.meta.ai/media`**
+### Bước 2 — Đăng nhập &amp; chọn gói
 
-Tiện ích sẽ chỉ hoạt động trên trang này. Nếu bạn đang ở trang khác, giao diện tiện ích sẽ hiển thị nút "Chuyển đến Meta AI".
+Bạn cần hai tài khoản:
 
-### Bước 2: Mở Tiện ích
+- **Tài khoản Vibes AI** (Facebook / Instagram) đăng nhập trên **vibes.ai** trong cùng trình duyệt — ảnh và video do *chính tài khoản Vibes của bạn* tạo, theo hạn mức của tài khoản đó.
+- **Tài khoản Google** — bấm **Đăng nhập với Google** trong bảng điều khiển để tiện ích xác định gói bản quyền. Chưa đăng nhập thì không thể bắt đầu.
 
-Nhấp vào biểu tượng Auto Meta (con vịt) trên thanh công cụ của Chrome để mở giao diện điều khiển.
+Gói **Basic** miễn phí **không chạy được việc tạo** trên Vibes AI — cần gói **Lite** trở lên. Gói chỉ trả cho công cụ tự động hoá, **không** có nghĩa là tạo không giới hạn. Gói không tự gia hạn.
 
-### Bước 3: Chọn Chế độ và Nhập liệu
+| Gói | 1 tháng | 6 tháng | 1 năm | Bao gồm |
+|---|---|---|---|---|
+| **Lite** | 50.000 ₫ | 250.000 ₫ | 500.000 ₫ | Tạo ảnh &amp; video trên Vibes AI · 10 luồng · không giới hạn prompt · 10 tác vụ trong hàng chờ · 4 ảnh / 4 video mỗi prompt · mọi chế độ tham chiếu · tự thử lại lỗi · chỉ dùng cho tiện ích |
+| **Plus** | 100.000 ₫ | 500.000 ₫ | 1.000.000 ₫ | Mọi thứ của Lite + app máy tính G-Labs Studio (gói Plus) |
+| **Max** | 200.000 ₫ | 1.000.000 ₫ | 2.000.000 ₫ | Mọi thứ của Plus · hàng chờ không giới hạn, tối đa 1000 luồng · G-Labs Studio gói Max, gồm máy chủ Webhook API |
 
-Bạn có hai cách để chạy tool:
+6 tháng giá bằng 5 tháng, 1 năm bằng 10 tháng. Mua ngay trong tiện ích: bấm **huy hiệu gói** ở thanh trên → **Nâng cấp**, rồi thanh toán bằng chuyển khoản **VietQR** (ngân hàng Việt Nam), **PayPal** hoặc **USDT / Binance** — trả bằng PayPal hoặc USDT thì tính theo giá USD (Lite $3, Plus $5, Max $10 mỗi tháng). Thanh toán xong đợi 1–3 phút rồi bấm **Làm mới trạng thái**. Nâng Plus → Max giữa kỳ chỉ tính phần chênh theo số ngày còn lại.
 
-#### Cách 1: Chế độ Image-to-Video (Ảnh sang Video)
+Đã có gói **Plus / Max của G-Labs Studio**? Đăng nhập cùng tài khoản Google — hai gói này dùng được cả app máy tính lẫn tiện ích. Mỗi bản quyền chạy trên một thiết bị tại một thời điểm: đăng nhập ở nơi khác sẽ đăng xuất phiên này.
 
-Chế độ này được kích hoạt tự động khi bạn có chọn ảnh.
+---
 
-1.  Tại tab **Điều Khiển**, nhấp vào nút **"Chọn nhiều ảnh"** và chọn tất cả các ảnh bạn muốn tạo video.
-2.  **Sắp xếp** (tùy chọn): Chọn thứ tự xử lý ảnh (A-Z, Mới nhất, v.v.).
-3.  Tại ô **Danh sách prompt**, nhập các prompt của bạn.
-    * **Lưu ý:** Tool sẽ lấy 1 ảnh + 1 prompt. Nếu danh sách prompt ngắn hơn danh sách ảnh, các prompt sẽ được sử dụng lặp lại (tuần hoàn).
-4.  Nhấp **"Bắt đầu"**.
+## Lần chạy đầu tiên
 
-#### Cách 2: Chế độ Text-to-Video (Chỉ dùng Prompt)
+1. **Mở [vibes.ai](https://vibes.ai)** trong Chrome và đăng nhập tài khoản Vibes AI.
+2. **Mở bảng điều khiển** — bấm biểu tượng **Auto Vibes** trên thanh công cụ, hoặc nút nổi phát sáng ở góc dưới phải trang vibes.ai (kéo được tới chỗ khác). Bảng điều khiển mở trong một cửa sổ riêng.
+3. **Đăng nhập với Google** ở thanh trên. Ô **Tài khoản Vibes** phải hiện *Đã đăng nhập*; nếu chưa, bấm vào ô đó để mở hoặc kiểm tra lại tab vibes.ai.
+4. **Chọn trang** — **Vibes Ảnh** hoặc **Vibes Video**.
+5. **Dán prompt** (hoặc **Nhập TXT**), chọn **1 dòng / prompt** hoặc **Tách theo dòng trống** cho prompt nhiều dòng. Chỉnh model, tỷ lệ khung, số lượng, độ phân giải (video), số luồng và độ trễ.
+6. Bấm **BẮT ĐẦU**. Mỗi prompt thành một dòng trong bảng, kết quả xong tới đâu tự lưu vào thư mục Downloads tới đó.
 
-Chế độ này được kích hoạt tự động khi bạn **KHÔNG** chọn bất kỳ ảnh nào.
+---
 
-1.  Đảm bảo ô "Đã chọn: 0" (không có ảnh nào).
-2.  Tại ô **Danh sách prompt**, nhập các prompt của bạn.
-    * **Lưu ý:** Mỗi prompt phải được cách nhau bằng một **dòng trống**. Tool sẽ tạo 1 video cho mỗi prompt.
-3.  Nhấp **"Bắt đầu"**.
+## Tính năng
 
-### Bước 4: Cài đặt (Tùy chọn)
+- **Hai trang tạo, một hàng chờ** — Vibes Ảnh (văn bản → ảnh, ảnh → ảnh) và Vibes Video (văn bản → video, ảnh → video), tối đa 4 kết quả mỗi prompt.
+- **Tham chiếu theo vai trò** — ảnh có ô **Nhân vật / Bối cảnh / Phong cách**; video dùng **Ảnh đầu / Ảnh cuối** hoặc **3 ảnh thành phần**.
+- **Phân bổ ảnh tự động** — nạp nhiều ảnh rồi rải vào các dòng: *Chỉ ảnh đầu*, *1 Đầu – N Cuối*, *N Đầu – 1 Cuối*, *Nối tiếp (1:2→2:3)*, *Cặp đôi (1:2→3:4)*.
+- **Kho ảnh tự khớp prompt** — kho ảnh tham chiếu dùng chung, tự gán ảnh vào dòng **theo từ khoá** hoặc **chính xác** theo tên; tên như `anna_char`, `beach_scene`, `shot1_start` tự vào đúng ô.
+- **Hàng chờ nhiều tác vụ** — đặt tên tác vụ, mỗi tác vụ một cấu hình riêng; tạm dừng, tiếp tục, đặt lại hoặc bỏ qua cả tác vụ trong **Quản lý hàng chờ**.
+- **Mỗi prompt là một dòng** — sửa, sắp xếp, chạy lại hoặc xoá từng dòng; **Chạy lại lỗi** hoặc **Chạy đã chọn**; lọc theo trạng thái. Từ gói Lite, lỗi tạm thời được tự thử lại.
+- **Không mất việc** — engine chạy trong tab vibes.ai nên đóng bảng điều khiển lô vẫn chạy tiếp; prompt, hàng chờ và kết quả được khôi phục khi mở lại.
+- **Tự lưu theo tác vụ** — lưu thẳng hoặc mỗi tác vụ một thư mục con, tên file theo mẫu; bấm vào kết quả để mở file.
+- **Giao diện 11 ngôn ngữ**, gồm Tiếng Việt và English.
 
-Truy cập tab **Cài Đặt** để tinh chỉnh:
+---
 
-* **Bắt đầu từ...**: Nhập số thứ tự (Ảnh hoặc Prompt) mà bạn muốn tool bắt đầu chạy.
-* **Thời gian chờ**: Tool sẽ tự động đề xuất thời gian chờ (giây) khác nhau cho mỗi chế độ (10-20 giây cho Image-to-Video, 15-30 giây cho Text-to-Video). Bạn có thể tự điều chỉnh nếu muốn.
-* **Tự động tải video**: Bật tính năng này để tool tự động quét và tải video mới về máy.
+## Các trang
 
-### 💡 Mẹo quan trọng (Để Tải tự động)
+### 🖼 Vibes Ảnh
 
-Để video tự động tải về mà không bị hỏi, bạn cần tắt cài đặt "Hỏi vị trí lưu..." của Chrome:
-1.  Truy cập `chrome://settings/downloads`.
-2.  Tắt tùy chọn **"Hỏi vị trí lưu mỗi tệp trước khi tải xuống"**.
+Tạo hàng loạt văn bản → ảnh và ảnh → ảnh. Chọn model, tỷ lệ khung, số ảnh mỗi prompt (1–4), số luồng và độ trễ giữa các luồng. Mỗi dòng có thể gắn ảnh tham chiếu **Nhân vật / Bối cảnh / Phong cách** — thêm từng dòng, lấy từ kho ảnh, hoặc dùng **Nạp ảnh phân bổ**. Ảnh tham chiếu trên 3,8 MB được tự thu nhỏ trước khi tải lên.
 
-## 👨‍💻 Tác giả
+### 🎬 Vibes Video
 
-Phát triển bởi **Đặng Minh Đức (duckmartians)**.
+Tạo hàng loạt văn bản → video và ảnh → video ở **480p hoặc 720p**, tối đa 4 video mỗi prompt. Chọn chế độ tham chiếu: **Ảnh đầu / Ảnh cuối** (kèm các kiểu phân bổ ở trên) hoặc **3 ảnh thành phần**. Tên file luôn được thêm hậu tố `_480p` / `_720p`.
 
-## 📜 Giấy phép
+### 📋 Quản lý hàng chờ
 
-Mã nguồn này được cấp phép theo các điều khoản của Giấy phép MIT. Vui lòng xem file `LICENSE.md` để biết chi tiết.
+Bấm **Thêm hàng chờ** để lưu prompt + cấu hình hiện tại thành một tác vụ có tên. Quản lý hàng chờ hiện tên, cấu hình, số prompt, đường dẫn lưu và trạng thái của từng tác vụ; cho phép sửa, đặt lại (xoá kết quả cũ của tác vụ rồi chạy lại từ đầu), bỏ qua hoặc xoá. Gói Lite và Plus giữ tối đa 10 tác vụ; Max không giới hạn.
+
+### 🗂 Kho ảnh tham chiếu
+
+Kho ảnh tham chiếu dùng chung cho cả hai trang. Thêm ảnh, xem đánh giá đặt tên có dễ khớp không, rồi **Thêm vào dòng đã chọn** hoặc bật **Tự động gán ảnh vào dòng theo prompt** (theo từ khoá: gõ ≥3 ký tự đầu của một từ trong tên ảnh là khớp; chính xác: prompt phải ghi đúng nguyên tên ảnh).
+
+### ⚙ Cài đặt
+
+Mẫu **Đặt tên file** — *Mặc định* `{row}_{prompt}_{slot}`, *Thời gian*, *Chỉ số*, *Tiền tố + Số*, *Ngày + Prompt* hoặc *Tùy chỉnh* — kèm tiền tố, số chữ số tối thiểu, ký tự phân cách, độ dài tối đa nội dung và ô xem trước. Ngôn ngữ giao diện chọn ở thanh trên.
+
+---
+
+## Quyền truy cập &amp; quyền riêng tư
+
+| Quyền | Để làm gì |
+|---|---|
+| `storage`, `unlimitedStorage` | Lưu prompt, hàng chờ, kho ảnh tham chiếu (lưu dạng ảnh), cài đặt và phiên làm việc trong trình duyệt; hạn mức mở rộng giúp kho ảnh không bị mất ngầm. |
+| `alarms` | Bộ hẹn giờ nhẹ giữ engine chạy ổn định khi bảng điều khiển ở nền. |
+| `downloads`, `downloads.open` | Lưu kết quả vào thư mục Downloads và mở file ngay từ bảng kết quả. |
+| `identity`, `identity.email` | Đăng nhập Google và đọc email tài khoản để xác định gói bản quyền. |
+| `https://vibes.ai/*` | Chạy việc tạo trên phiên vibes.ai của chính bạn. |
+| `https://glab.duckmartians.info/*` | Máy chủ bản quyền — chỉ kiểm tra gói và giới hạn của gói. |
+| `https://www.googleapis.com/*` | Đọc email tài khoản Google một lần sau khi đăng nhập. |
+
+Prompt, ảnh, video, hàng chờ, kho ảnh và cài đặt **nằm trong trình duyệt của bạn**; việc tạo đi thẳng từ phiên vibes.ai của bạn. Máy chủ bản quyền chỉ nhận email Google, token đăng nhập (dùng tạm) và một mã cài đặt ngẫu nhiên. Tiện ích không tải mã từ xa.
+
+---
+
+## Nơi lưu dữ liệu
+
+| Dữ liệu | Vị trí |
+|---|---|
+| Ảnh đã tạo | Mặc định `Downloads/AutoVibes/Image` (lưu thẳng, hoặc mỗi tác vụ một thư mục con) |
+| Video đã tạo | Mặc định `Downloads/AutoVibes/Video` (lưu thẳng, hoặc mỗi tác vụ một thư mục con) |
+| Prompt, hàng chờ, kho ảnh, cài đặt, phiên làm việc | Bộ nhớ cục bộ của tiện ích trong Chrome (`chrome.storage.local`) |
+
+Hết hạn gói thì tiện ích về gói Basic; dữ liệu trong trình duyệt vẫn giữ nguyên.
+
+---
+
+## Khắc phục sự cố
+
+**"Chưa đăng nhập trên tab vibes.ai"** — đăng nhập Vibes AI trên tab vibes.ai, tiện ích sẽ tự nhận. Bấm vào ô **Tài khoản Vibes** để kiểm tra lại.
+
+**"Không kết nối được với tab vibes.ai"** — tải lại (F5) tab vibes.ai rồi bấm Bắt đầu lại. Đừng đóng tab vibes.ai khi lô đang chạy.
+
+**Bấm Bắt đầu không chạy / hiện yêu cầu nâng cấp** — gói Basic không tạo được trên Vibes AI. Xem huy hiệu gói ở thanh trên; sau khi thanh toán, bấm **Làm mới trạng thái**.
+
+**Bị đăng xuất với "PHÁT HIỆN XUNG ĐỘT"** — bản quyền vừa đăng nhập ở thiết bị khác. Đăng nhập lại để tiếp tục trên máy này.
+
+**Chrome hỏi nơi lưu cho từng file** — vào `chrome://settings/downloads` và tắt **Hỏi vị trí lưu mỗi tệp trước khi tải xuống**.
+
+**Một dòng lỗi vi phạm chính sách** — Vibes AI chặn nội dung (thường do người nổi tiếng, bạo lực, trẻ em hoặc nội dung tình dục trong prompt hoặc ảnh tham chiếu). Sửa lại rồi chạy lại dòng đó.
+
+---
+
+<sub>Auto Vibes là công cụ độc lập, không liên kết, không được Meta hay Vibes AI tài trợ hoặc xác nhận. Meta, Vibes, Facebook và Instagram là nhãn hiệu của Meta Platforms, Inc.</sub>
